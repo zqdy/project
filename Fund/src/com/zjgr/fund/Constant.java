@@ -8,7 +8,7 @@ package com.zjgr.fund;
 public class Constant {
 
 	public static final String TAG = "Constant";
-	public static boolean IS_DEBUG = false;
+	public static boolean IS_DEBUG = true;
 	
 	public static final String PROJECT_NAME = "fund";
 	public static final String PROJECT_IMAGE_NAME = "images";
