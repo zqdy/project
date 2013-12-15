@@ -1,14 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/main_bg"    tools:context=".FundDetailActivity" >
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/main_bg"
+    android:orientation="horizontal" >
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/layoutBody"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="个人财产信息" />
+        android:layout_above="@+id/layoutBodyBtn"
+        android:layout_alignParentTop="true" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutBodyBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_bottom"
+        android:gravity="center" >
+
+        <!-- 账户 -->
+
+        <TextView
+            android:id="@+id/accountTxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg"
+            android:clickable="true"
+            android:drawableTop="@drawable/ic_account"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/account"
+            android:visibility="visible" />
+        
+        <!-- 持仓 -->
+
+        <TextView
+            android:id="@+id/positionTxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg"
+            android:clickable="true"
+            android:drawableTop="@drawable/ic_position"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="持仓" />
+
+        <!-- 交易 -->
+
+        <TextView
+            android:id="@+id/tradeTxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg"
+            android:clickable="true"
+            android:drawableTop="@drawable/ic_trade"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="交易" />
+        
+        <!-- 撤单 -->
+
+        <TextView
+            android:id="@+id/orderCancelTxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg"
+            android:clickable="true"
+            android:drawableTop="@drawable/ic_order_cancel"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="撤单" />
+
+        <!-- 更多 -->
+
+        <TextView
+            android:id="@+id/moreTxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg"
+            android:clickable="true"
+            android:drawableTop="@drawable/ic_more"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="更多" />
+    </LinearLayout>
 
 </RelativeLayout>

@@ -3,10 +3,10 @@
  */
 package com.zjgr.fund.app;
 
-import com.zjgr.fund.FundApplication;
-
-import android.app.Activity;
+import android.app.ActivityGroup;
 import android.os.Bundle;
+
+import com.zjgr.fund.FundApplication;
 
 /**
  * @function BaseActivity.java
@@ -14,7 +14,7 @@ import android.os.Bundle;
  * @date 2013-12-15
  */
 
-public class BaseActivity extends Activity {
+public class BaseActivity extends ActivityGroup {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
