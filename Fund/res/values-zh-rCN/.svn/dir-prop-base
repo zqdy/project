@@ -1,0 +1,24 @@
+K 10
+svn:ignore
+V 162
+.jdbrc
+*.apk
+*.ap_
+*.dex
+*.class
+bin
+gen
+build
+local.properties
+config.properties
+.classpath
+.project
+.DS_Store
+*.iml
+*.ipr
+*.iws
+.idea
+.gradle
+gradle.properties
+
+END

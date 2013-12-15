@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fund</string>
+    <string name="menu_settings">Settings</string>
+    <string name="login">Login</string>
+    <string name="create_account">Register</string>
+    <string name="change_account">Change Account</string>
+    <string name="account">Account</string>
+    <string name="password">Password</string>
+    <string name="progress_doing">Hold on please</string>
+    <string name="account_not_exist_or_wrong_password">Account or password is wrong</string>
+    <string name="enter_username_or_password">Enter account and password</string>
+    <string name="select_protocol">Selected protocol please!</string>
+    <string name="account_too_long">Account is too long</string>
+    <string name="password_too_long">Password is too long</string>
+    <string name="can_not_input_chinese">Can not to input chinese</string>
+    <string name="account_is_null">Account is null</string>
+    <string name="password_is_null">Password is null</string>
+    
+</resources>

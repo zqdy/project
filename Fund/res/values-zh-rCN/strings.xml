@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">中金理财超市</string>
+    <string name="menu_settings">设置</string>
+    <string name="login">登录</string>
+    <string name="create_account">注册</string>
+    <string name="change_account">切换账号</string>
+    <string name="account">账号</string>
+    <string name="password">密码</string>
+    <string name="progress_doing">请稍等，正在处理...</string>
+    <string name="account_not_exist_or_wrong_password">帐号不存在或密码错误</string>
+    <string name="enter_username_or_password">请输入用户名或密码</string>
+    <string name="select_protocol">请选择协议</string>
+    <string name="account_too_long">亲，账号太长了</string>
+    <string name="password_too_long">亲，密码太长了</string>
+    <string name="can_not_input_chinese">亲，不能输入中文</string>
+    <string name="account_is_null">亲，帐号不能为空</string>
+    <string name="password_is_null">亲，密码不能空</string>
+
+</resources>
