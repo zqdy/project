@@ -5,7 +5,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import android.content.ComponentName;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -122,6 +124,13 @@ public class FundDetailActivity extends BaseActivity implements
 	{
 		Toast.makeText(this, "onItemClick >>> " + position, Toast.LENGTH_SHORT)
 		        .show();
+		
+		ComponentName componetName = new ComponentName("com.zjgr.fund",
+				 "com.zjgr.fund.app.property.MyPropertyActivity"); 
+		Intent intent = new
+				 Intent(); intent.setComponent(componetName);
+				 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP |
+				 Intent.FLAG_ACTIVITY_NEW_TASK); startActivity(intent); 
 	}
 	
 	/*
