@@ -4,7 +4,6 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     android:baselineAligned="false"
-    android:descendantFocusability="blocksDescendants"
     android:gravity="center_vertical" >
 
     <TableLayout
@@ -91,12 +90,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
-                android:text="最新净值" />
+                android:text="最新净值"
+                android:textColor="@color/black"  />
 
             <TextView
                 android:id="@+id/netValue"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"  />
         </TableRow>
 
         <TableRow>
@@ -104,12 +105,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
-                android:text="级        别" />
+                android:text="级        别"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/fundLevel"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"/>
         </TableRow>
     </TableLayout>
 
@@ -117,7 +120,6 @@
         android:id="@+id/tradeBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:focusable="false"
         android:src="@drawable/trade_btn" />
 
 </LinearLayout>
