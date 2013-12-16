@@ -21,11 +21,9 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
-import android.widget.Toast;
 
 import com.zjgr.fund.R;
 import com.zjgr.fund.app.BaseActivity;
-import com.zjgr.fund.app.detail.FundDetailActivity;
 
 public class MoreActivity extends BaseActivity implements OnClickListener {
 
@@ -104,8 +102,6 @@ public class MoreActivity extends BaseActivity implements OnClickListener {
 		@Override
 		public void onItemClick(AdapterView<?> parent, View view, int position,
 				long id) {
-			Toast.makeText(MoreActivity.this, "onItemClick >>> " + position, Toast.LENGTH_SHORT)
-	        .show();
 			// 创建intent对象
 			Intent intent = new Intent();
 			ComponentName componetName;

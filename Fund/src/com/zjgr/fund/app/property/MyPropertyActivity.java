@@ -94,11 +94,11 @@ public class MyPropertyActivity extends BaseActivity implements OnClickListener 
 		naviView = (LinearLayout) findViewById(R.id.layoutBodyBtn);
 		int childCount = naviView.getChildCount();
 		naviItems = new View[childCount];
-		View accountView = findViewById(R.id.accountTxt);
-		addView2Array(ACCOUNT, accountView, naviItems);
+		View communicationView = findViewById(R.id.accountTxt);
+		addView2Array(ACCOUNT, communicationView, naviItems);
 		addView2Array(POSITION, findViewById(R.id.positionTxt), naviItems);
-		View tradeView = findViewById(R.id.tradeTxt);
-		addView2Array(TRADE, tradeView, naviItems);
+		View lifeView = findViewById(R.id.tradeTxt);
+		addView2Array(TRADE, lifeView, naviItems);
 		addView2Array(ORDER_CANCEL, findViewById(R.id.orderCancelTxt), naviItems);
 		addView2Array(MORE, findViewById(R.id.moreTxt), naviItems);
 
@@ -108,7 +108,7 @@ public class MyPropertyActivity extends BaseActivity implements OnClickListener 
 			naviView.addView(naviItems[i], i);
 			naviItems[i].setOnClickListener(this);
 		}
-		accountView.performClick();
+		lifeView.performClick();
 	}
 
 	/**
@@ -146,8 +146,8 @@ public class MyPropertyActivity extends BaseActivity implements OnClickListener 
 
 		// 账户
 		case R.id.accountTxt:
-			 intent = new Intent(this, AccountActivity.class);
-			 showView(AccountActivity.class, intent, true);
+			// intent = new Intent(this, CommunicationActivity.class);
+			// showView(CommunicationActivity.class, intent, true);
 			break;
 
 		// 持仓
