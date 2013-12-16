@@ -17,15 +17,53 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
-                android:text="基金代码" 
-                android:textColor="@color/black"/>
+                android:text="基金代码"
+                android:textColor="@color/black" />
 
             <TextView
                 android:id="@+id/fundCode"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" 
-                android:textColor="@color/black"/>
+                android:layout_height="wrap_content"
+                android:textColor="@color/black" />
         </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="基金简称"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/fundName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="最新净值"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/netValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
 
         <TableRow>
 
@@ -39,80 +77,39 @@
             <TextView
                 android:id="@+id/dayIncreased"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" 
-                android:textColor="@color/black"/>
+                android:layout_height="wrap_content"
+                android:textColor="@color/black" />
         </TableRow>
-    </TableLayout>
-
-    <TableLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1" >
 
         <TableRow>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
-                android:text="基金简称" 
-                android:textColor="@color/black"/>
-
-            <TextView
-                android:id="@+id/fundName"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" 
-                android:textColor="@color/black"/>
-        </TableRow>
-
-        <TableRow>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="5dp"
-                android:text="年化收益" 
-                android:textColor="@color/black"/>
+                android:text="年化收益"
+                android:textColor="@color/black" />
 
             <TextView
                 android:id="@+id/yearIncreased"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" 
-                android:textColor="@color/orange"/>
-        </TableRow>
-    </TableLayout>
-
-    <TableLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1" >
-
-        <TableRow>
-            <TextView
-                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="5dp"
-                android:text="最新净值"
-                android:textColor="@color/black"  />
-
-            <TextView
-                android:id="@+id/netValue"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/black"  />
+                android:textColor="@color/orange" />
         </TableRow>
-
         <TableRow>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
                 android:text="级        别"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black" />
 
             <TextView
                 android:id="@+id/fundLevel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/black"/>
+                android:textColor="@color/black" />
         </TableRow>
     </TableLayout>
 

@@ -55,9 +55,9 @@ public class MainActivity extends BaseActivity implements OnItemClickListener
 		private int mActionBarHeight = -1;
 		private GridView.LayoutParams mImageViewLayoutParams;
 		private int[] imageArrays = new int[]
-		{R.drawable.ic_launcher, R.drawable.ic_launcher,
-		        R.drawable.ic_launcher, R.drawable.ic_launcher,
-		        R.drawable.ic_launcher, R.drawable.ic_launcher};
+		{R.drawable.fund_btn, R.drawable.gold_btn, R.drawable.feicui_btn,
+		        R.drawable.waihui_btn, R.drawable.diamond_btn,
+		        R.drawable.collection_btn};
 		
 		public ImageAdapter(Context context)
 		{
