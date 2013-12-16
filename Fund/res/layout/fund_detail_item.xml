@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:baselineAligned="false"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="基金代码" 
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/fundCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:textColor="@color/black"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="日增长率"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/dayIncreased"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:textColor="@color/black"/>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="基金简称" 
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/fundName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:textColor="@color/black"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="年化收益" 
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/yearIncreased"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:textColor="@color/orange"/>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="最新净值" />
+
+            <TextView
+                android:id="@+id/netValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="级        别" />
+
+            <TextView
+                android:id="@+id/fundLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+    </TableLayout>
+
+    <ImageButton
+        android:id="@+id/tradeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:src="@drawable/trade_btn" />
+
+</LinearLayout>
